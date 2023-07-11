@@ -1,1 +1,1 @@
-Shell init
+Shell navigation and expansions
