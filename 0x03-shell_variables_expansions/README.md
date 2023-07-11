@@ -12,11 +12,7 @@ export PATH=$PATH:/action
 
 3. If the path be beautiful, let us not ask where it leads
 #!/bin/bash
-<<<<<<< HEAD
-echo $((' echo $PATH | grep -o ":/" | wc -l ' +))
-=======
-echo $((' echo $PATH | grep -o ":/" | wc -1 ' +))
->>>>>>> 41ddf7371c5c73c25092597a7d8aeb90436f4e8d
+echo $(('echo $PATH | grep -o ":/" | wc -l' +1))
 
 4. Global variables
 #!/bin/bash
@@ -80,7 +76,8 @@ paste -d, -- | cut -d, -f1
 17. Instant start
 #!/bin/bash
 printf "%o\n" $(( $((5#$(echo $WATER | tr water 01234))) + $((5#$(echo $STIR | tr stir. 01234))) )) | tr 01234567 bestchol
-<<<<<<< HEAD
 
-=======
->>>>>>> 41ddf7371c5c73c25092597a7d8aeb90436f4e8d
+
+
+
+
